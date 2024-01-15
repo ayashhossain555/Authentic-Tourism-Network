@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* Common Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Mulish", sans-serif;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 40px auto;
+}
+.primary-button{
+    border-radius: 8px;
+    border: none;
+    background: #fb6120;
+    color: #FFF;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 150px;
+}
+.title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.txt{
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+/* Header Styles */
+
+/* Nav Styles */
+.nav-section{
+    display: flex;
+}
+.nav-heading{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+.nav-heading h1{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.imp-blue, #home-blue{
+    color: #10298e;
+}
+.nav-heading img{
+    width: 15%;
+    padding-bottom: 13px;
+}
+
+.nav-content{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.nav-content ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.nav-content ul li{
+    list-style: none;
+}
+.nav-content ul li a{
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+#bar-label{
+    display: none;
+    color: #10298e;
+}
+
+/* Banner Styles */
+
+.banner-section .banner-content{
+    width: 100%;
+    height: 31.25rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../images/banner.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content h1{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.banner-content p{
+    padding: 0 245px;
+    margin-bottom: 48px;
+}
+.banner-items{
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.banner-items .item{
+    border-radius: 8px;
+    background: #FFF;
+    padding: 10px 0 10px 10px;
+    width: 150px;
+    border: none;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+}
