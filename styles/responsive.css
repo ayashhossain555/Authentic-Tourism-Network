@@ -24,7 +24,6 @@
         width: 15%;
     }
     .nav-content{
-        border: 2px solid red;
         width: 30%;
         display: flex;
         align-items: flex-end;
@@ -96,5 +95,10 @@
         'grid-item-7'
         ;
         gap: 15px;
+    }
+
+    /* Services Styles */
+    .service-section > .txt{
+        padding: 0 20px 20px;
     }
 }
