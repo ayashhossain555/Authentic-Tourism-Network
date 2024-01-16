@@ -386,6 +386,7 @@ body{
 }
 .media-vid{
     width: 48%;
+    position: relative;
 }
 .media-vid video{
     width: 100%;
@@ -394,6 +395,14 @@ body{
     border-radius: 16px;
     background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
 }
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
 
 /* Plan Styles */
 .plan-container{
