@@ -3,7 +3,7 @@
 }
 
 @media screen and (max-width: 600px){
-    body{
+    header, main{
         border: 2px solid red;
         padding: 0 25px;
     }
@@ -147,5 +147,16 @@
     .news-img .tag{
         bottom: 14%;
         left: 42%;
+    }
+
+    /* footer Styles */
+    .footer-section hr{
+        width: 80%;
+    }
+    .footer-section .txt{
+        padding: 0 20px;
+    }
+    .footer-section img{
+        width: 12%;
     }
 }

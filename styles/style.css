@@ -471,3 +471,42 @@ body{
     font-weight: 800;
 }
 
+/* Footer Styles */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 100px 0;
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.footer-logo{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-section img{
+    width: 7%;
+    padding-bottom: 8px;
+}
+.footer-section h3{
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+}
+.footer-section .txt{
+    padding: 0 260px;
+}
+.footer-section hr{
+    background: rgba(19, 19, 24, 0.10);
+    margin: 10px auto;
+}
+.footer-section .social-link{
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+}
