@@ -5,9 +5,9 @@
 @media screen and (max-width: 600px){
     body{
         border: 2px solid red;
-        padding: 0 15px;
+        padding: 0 25px;
     }
-    .nav-content, .nav-content ul, .banner-items{
+    .nav-content, .nav-content ul, .banner-items, .tour-section{
         flex-direction: column;
     }
 
@@ -72,6 +72,29 @@
         font-size: 2rem;
     }
 
-    
+    /* Tour Styles */
+    .tour-section{
+        margin: 0 auto;
+        gap: 20px;
+    }
+    .tour-content, .tour-img{
+        width: 100%;
+    }
 
+    /* Destination Styles */
+    .destination-heading .txt{
+        padding: 20px 25px;
+    }
+    .img-container{
+        grid-template-areas:
+        'grid-item-1'
+        'grid-item-2'
+        'grid-item-3'
+        'grid-item-4'
+        'grid-item-5'
+        'grid-item-6'
+        'grid-item-7'
+        ;
+        gap: 15px;
+    }
 }
