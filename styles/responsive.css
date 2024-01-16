@@ -4,7 +4,6 @@
 
 @media screen and (max-width: 600px){
     header, main{
-        border: 2px solid red;
         padding: 0 25px;
     }
     .nav-content, .nav-content ul, .banner-items, .tour-section, .discount-content, .media-section, .news-section{
