@@ -7,10 +7,14 @@
         border: 2px solid red;
         padding: 0 25px;
     }
-    .nav-content, .nav-content ul, .banner-items, .tour-section{
+    .nav-content, .nav-content ul, .banner-items, .tour-section, .discount-content, .media-section, .news-section{
         flex-direction: column;
     }
-
+    .primary-button{
+        border-radius: 6px;
+        padding: 12px 22px;
+        font-size: 1.2rem;
+    }
 
     /* Nav Styles */
     .nav-heading{
@@ -100,5 +104,48 @@
     /* Services Styles */
     .service-section > .txt{
         padding: 0 20px 20px;
+    }
+
+    /* discount Styles */
+    .discount-section > .txt{
+        padding: 0 20px 20px;
+    }
+    .discount-content{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .single-discount{
+        width: 70%;
+        padding: 25px;
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .discount-container > #dis-2{
+        justify-content: flex-end;
+    }
+    #dis-2 .single-discount{
+        margin-left: 0;
+    }
+    .discount-section > .primary-button{
+        display: none;
+    }
+    
+    /* Media Styles */
+    .media-section{
+        margin: 0 auto;
+        gap: 20px;
+    }
+    .media-content, .media-vid{
+        width: 100%;
+    }
+
+    /* Newsletter Styles */
+    .news-content, .news-img{
+        width: 100%;
+    }
+    .news-img .tag{
+        bottom: 14%;
+        left: 42%;
     }
 }
