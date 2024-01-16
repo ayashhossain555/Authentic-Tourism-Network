@@ -140,6 +140,19 @@
         width: 100%;
     }
 
+    /* Plan Styles */
+    .plan-form{
+        width: 80%;
+    }
+    .plan-container p{
+        padding: 0 20px;
+    }
+    .plan-form .box-head{
+        padding: 38px 35px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
     /* Newsletter Styles */
     .news-content, .news-img{
         width: 100%;

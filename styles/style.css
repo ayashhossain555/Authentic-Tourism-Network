@@ -395,6 +395,74 @@ body{
     background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
 }
 
+/* Plan Styles */
+.plan-container{
+    width: 100%;
+    border: 2px solid #10298e;
+    min-height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../images/flight.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+.plan-form{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 50%;
+}
+.plan-container h2{
+    color: #fb6120;
+    font-weight: 800;
+    font-size: 40px;
+}
+.plan-container p{
+    padding: 0 200px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+.plan-form #name, #email, #phone, #destination, #date, #people, #location, .box-content{
+    display: block;
+    color: #5A5A5D;
+    border-radius: 8px;
+    outline: #fb6120;
+    background: white;    
+    padding: 18px 35px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    width: 100%;
+}
+.plan-form .box-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plan-form .box-head{
+    border-radius: 8px;
+    color: #FFF;
+    background: #10298e;    
+    padding: 18px 35px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
 /* Newsletter Styles */
 
 .news-section{
