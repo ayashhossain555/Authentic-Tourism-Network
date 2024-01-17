@@ -462,13 +462,15 @@ body{
     align-items: center;
     justify-content: center;
 }
-.plan-form .box-head{
+.plan-form .box-1 .box-head{
+    text-align: center;
     border-radius: 8px;
     color: #FFF;
     background: #10298e;    
     padding: 18px 35px;
     font-size: 16px;
     font-weight: 700;
+    /* width: 20%; */
 }
 
 
